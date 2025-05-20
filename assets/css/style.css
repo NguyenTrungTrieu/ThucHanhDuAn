@@ -47,7 +47,7 @@ a {
 .nav a {
   color: black;
   width: 80px;
-  gap: 1.6rem;
+  margin: 10px;
   text-align: center;
   border-radius: 999px;
   padding: 5px;
@@ -67,7 +67,7 @@ a {
   background-color: black;
   color: white;
   padding: 10px;
-  width: 90px;
+  width: 80px;
   text-align: center;
   font-size: 1.6rem;
   font-weight: 600;
