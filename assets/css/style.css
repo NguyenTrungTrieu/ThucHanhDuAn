@@ -6,4 +6,69 @@ html {
 }
 body {
   font-size: 1.6rem;
+  font-family: "Inter", sans-serif;
+}
+/* ================ Header ============ */
+.header {
+  background-color: blueviolet;
+}
+.header.fixed{
+  position: sticky;
+  top: -28px;
+}
+.header .body {
+  display: flex;
+
+  padding: 36px 0 8px;
+}
+.nav {
+  margin: auto auto;
+}
+.action {
+  margin-left: auto;
+  margin: auto 0;
+}
+.nav ul {
+  display: flex;
+}
+
+/* ================ Common ============ */
+.logo {
+  width: 50px;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+.main-content {
+  margin: auto;
+  max-width: calc(100% - 48px);
+}
+.nav a {
+  color: black;
+  width: 80px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 999px;
+  padding: 5px;
+  background-color: aqua;
+}
+.nav a:link {
+  color: blue;
+}
+.nav a:hover {
+  font-style: italic;
+}
+.nav a:active {
+  background-color: rgb(14, 196, 228);
+}
+.btn {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 999px;
 }
