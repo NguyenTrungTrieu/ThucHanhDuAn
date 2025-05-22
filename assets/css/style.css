@@ -141,6 +141,53 @@ body {
   font-weight: 800;
   color: blueviolet;
 }
+/* ================ Footer ============ */
+.footer {
+  background-color: rgba(136, 58, 58, 0.568);
+  padding: 100px 135px 50px;
+}
+.footer .row {
+  display: flex;
+}
+.footer .logo-footer {
+  width: 48px;
+  height: auto;
+}
+.footer .row .column {
+  width: 21.6%;
+}
+.footer .row .column:first-child {
+  width: 35%;
+}
+.footer .content {
+  max-width: 300px;
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: rgb(39, 8, 51);
+}
+.footer .socials {
+  padding-top: 10px;
+}
+.footer .icon {
+  width: 24px;
+  height: auto;
+}
+.footer .title {
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  border-bottom: 2px solid rgb(135, 38, 148);
+  padding-bottom: 10px;
+}
+.footer .list {
+  margin-top: 20px;
+  font-style: italic;
+  line-height: 2;
+}
+
 /* ================ Common ============ */
 .logo {
   width: 50px;
